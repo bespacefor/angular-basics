@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {MySimpleServiceService} from "./services/my-simple-service.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-basics';
+  constructor(public mySimpleServiceService: MySimpleServiceService) {}
+  title = 'Angular Task';
 }

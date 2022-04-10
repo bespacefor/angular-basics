@@ -8,3 +8,24 @@
     max-width: 800px;
     padding: 1rem;
 }
+
+button {
+    background: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 1rem 1rem 0;
+    transition: opacity 0.2s ease-in;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: blue;
+}
